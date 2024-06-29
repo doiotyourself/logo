@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg version="1.1" width="180" height="90" viewbox="0 0 180 90" xmlns="http://www.w3.org/2000/svg">
    <style id="style1">
-      svg {
-         background: #0c0a0b;
-      }
 
       #stop1,
       #stop2 {
@@ -151,8 +148,5 @@
          <use id="echo-1" x="90" y="72" href="#char-sq" />
          <use id="echo-m" x="103" y="72" href="#char-m" />
       </g>
-   </g>
-   <g id="layer3">
-      <use href="#layer2" filter="url(#glow1)" />
    </g>
 </svg>
