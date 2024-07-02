@@ -22,7 +22,9 @@
          stroke: #44c608;
       }
 
-      .diy {}
+      .diy {
+         opacity: 1;
+      }
    </style>
    <mask id="hole1" maskContentUnits="objectBoundingBox">
       <rect width="1" height="1" fill="#ffffff" />
@@ -113,29 +115,29 @@
    </g>
    <g id="layer2">
       <g id="do">
-         <use id="echo-d" x="77" y="18" href="#char-d" class="diy" />
-         <use id="echo-4" x="90" y="18" href="#char-o" />
+         <use id="echo-d" x="77" y="18" href="#char-d" />
+         <use id="echo-4" x="90" y="18" href="#char-o" class="diy"/>
       </g>
       <g id="iot">
-         <use id="echo-i" x="77" y="36" href="#char-i" transform="translate(1,0)" class="diy" />
+         <use id="echo-i" x="77" y="36" href="#char-i" transform="translate(1,0)" />
          <use id="echo-3" x="90" y="36" href="#char-o" />
          <use id="echo-t" x="103" y="36" href="#char-t" />
       </g>
       <g id="yourself">
-         <use id="echo-y" x="77" y="54" href="#char-y" class="diy" />
-         <use id="echo-2" x="90" y="54" href="#char-o" />
-         <use id="echo-u" x="103" y="54" href="#char-u" />
-         <use id="echo-r" x="116" y="54" href="#char-r" />
-         <use id="echo-s" x="129" y="54" href="#char-s" />
-         <use id="echo-e" x="142" y="54" href="#char-e" />
-         <use id="echo-l" x="155" y="54" href="#char-l" transform="translate(-1,0)" />
-         <use id="echo-f" x="168" y="54" href="#char-f" transform="translate(-5,0)" />
+         <use id="echo-y" x="77" y="54" href="#char-y" />
+         <use id="echo-2" x="90" y="54" href="#char-o" class="diy"/>
+         <use id="echo-u" x="103" y="54" href="#char-u" class="diy"/>
+         <use id="echo-r" x="116" y="54" href="#char-r" class="diy"/>
+         <use id="echo-s" x="129" y="54" href="#char-s" class="diy"/>
+         <use id="echo-e" x="142" y="54" href="#char-e" class="diy"/>
+         <use id="echo-l" x="155" y="54" href="#char-l" transform="translate(-1,0)" class="diy"/>
+         <use id="echo-f" x="168" y="54" href="#char-f" transform="translate(-5,0)" class="diy"/>
       </g>
       <g id="dotcom">
-         <use id="echo-x" x="64" y="72" href="#char-dot" />
-         <use id="echo-c" x="77" y="72" href="#char-c" />
-         <use id="echo-1" x="90" y="72" href="#char-sq" />
-         <use id="echo-m" x="103" y="72" href="#char-m" />
+         <use id="echo-x" x="64" y="72" href="#char-dot" class="diy"/>
+         <use id="echo-c" x="77" y="72" href="#char-c" class="diy"/>
+         <use id="echo-1" x="90" y="72" href="#char-sq" class="diy"/>
+         <use id="echo-m" x="103" y="72" href="#char-m" class="diy"/>
       </g>
    </g>
 </svg>
